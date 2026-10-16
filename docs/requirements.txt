@@ -1,0 +1,5 @@
+# Documentation extensions and theme already used by docs/source/conf.py.
+sphinx
+sphinx-rtd-theme
+sphinx-copybutton
+pydata-sphinx-theme

@@ -1,4 +1,4 @@
-darkmod - A Model of Dark-Field X-ray Microscopy 
+darkmod - A Model of Dark-Field X-ray Microscopy
 ======================================================
 
 This package is a forward model for Dark field X-ray Microscopy allowing for simulation of diffraction based image formation from samples that are spatially extended on 3D voxeldated grids.
@@ -20,3 +20,18 @@ pip install -e .
 Documentation
 ======================================
 Some documentation is found in the docstrings of the modules under `darkmod`.
+
+Chromatic imaging
+======================================
+
+The [chromatic imaging guide](docs/source/chromatic.rst) describes energy
+scans with fixed lens and detector positions, the ASTRA/CUDA API, model
+assumptions and validation commands. Public API docstrings are included in
+the Sphinx documentation.
+
+To build the documentation from the repository root:
+
+```bash
+pip install -r docs/requirements.txt
+PYTHONPATH=. python -m sphinx -b html docs/source docs/build/html
+```

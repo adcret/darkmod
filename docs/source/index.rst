@@ -2,7 +2,12 @@
    :maxdepth: 2
    :caption: Contents:
 
+   chromatic
+
 .. include:: ../../README.md
+   :end-before: Chromatic imaging
+
+For fixed-geometry energy scans, see the :doc:`chromatic` guide.
 
 ======================================
 crystal
@@ -81,6 +86,30 @@ beam
 ======================================
 
 .. automodule:: darkmod.beam
+    :members:
+    :show-inheritance:
+
+======================================
+chromatic
+======================================
+
+.. automodule:: darkmod.chromatic
+    :members:
+    :show-inheritance:
+
+======================================
+chromatic_imaging
+======================================
+
+.. automodule:: darkmod.chromatic_imaging
+    :members:
+    :show-inheritance:
+
+======================================
+chromatic_gpu
+======================================
+
+.. automodule:: darkmod.chromatic_gpu
     :members:
     :show-inheritance:
 
